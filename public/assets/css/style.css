@@ -1,0 +1,61 @@
+.burger-container{
+  margin: 10px auto;
+  min-width: 760px;
+}
+
+.margin>img{
+  width: 100%;
+  margin-top: 45px;
+}
+
+.header {
+  text-align: center;
+}
+
+.burger-form{
+  text-align: center;
+  margin: 0px auto;
+}
+
+.burger-form>button{
+  margin: 0px 5px;
+}
+
+.table {
+  text-align: center;
+  display: grid;
+  grid-template-columns: 40% 20% 40%;
+}
+
+.burger-div {
+  display: grid;
+  grid-template-columns: 75% 25%;
+  margin: 5px 0px;
+}
+
+.burger-name {
+  text-align: left;
+}
+
+.devour-div {
+  text-align: right;
+}
+
+.devour-btn {
+  margin: 0px 5px;
+}
+
+#readyBurgers>.burger-div>.name-div {
+  text-align: left;
+  margin-left: 20px;
+}
+
+#devouredBurgers>.burger-div>.name-div {
+  text-align: right;
+  margin-right: 20px;
+  text-decoration: line-through;
+}
+
+#devouredBurgers>.burger-div>.devour-div>.devour-btn {
+  display: none;
+}

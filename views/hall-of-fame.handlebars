@@ -1,0 +1,57 @@
+<div class="burger-container">
+  <div class="header">
+    <h1>Burger Hall of Fame</h1>
+  </div>
+  <form action="submit" class="burger-form" id="add-burger-form">
+    <input type="text" required name="name" placeholder="Add burger name">
+    <button type="submit">Add Burger</button>
+    <br/>
+    <br/>
+    <a href="/">Burger Time!!</a>
+  </form>
+  <div>
+    <div class="table">
+      <div>
+        <h3>Ready!</h3>
+        <div id="readyBurgers">
+          {{#each readyBurgers}}
+          <div class="burger-div">
+            <div class="name-div">
+              <span class="burger-name">
+                {{burger_name}}
+              </span>
+            </div>
+            <div class="devour-div">
+              <button class="devour-btn" data-name={{burger_name}} data-id={{id}} data-devoured="0">
+                Devour!
+              </button>
+            </div>
+          </div>
+          {{/each}}
+        </div>
+      </div>
+      <div class="margin">
+        <img src="/assets/images/burger.jpg" alt="burger">
+      </div>
+      <div>
+        <h3>Devoured!</h3>
+        <div id="devouredBurgers">
+          {{#each devouredBurgers}}
+          <div class="burger-div">
+            <div class="name-div">
+              <span class="burger-name">
+                {{burger_name}}
+              </span>
+            </div>
+            <div class="devour-div">
+              <button class="devour-btn" data-name={{burger_name}} data-id={{id}} data-devoured="0">
+                Devour!
+              </button>
+            </div>
+          </div>
+          {{/each}}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
