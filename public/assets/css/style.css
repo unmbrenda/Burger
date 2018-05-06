@@ -1,3 +1,4 @@
+
 .burger-container{
   margin: 10px auto;
   min-width: 760px;
@@ -19,6 +20,7 @@
 
 .burger-form>button{
   margin: 0px 5px;
+  font-family:cursive;
 }
 
 .table {
@@ -43,17 +45,22 @@
 
 .devour-btn {
   margin: 0px 5px;
+  font-family:cursive;
 }
 
 #readyBurgers>.burger-div>.name-div {
   text-align: left;
   margin-left: 20px;
+  color:white;
+  font-family:cursive;
 }
 
 #devouredBurgers>.burger-div>.name-div {
   text-align: right;
   margin-right: 20px;
   text-decoration: line-through;
+  color:white;
+  font-family:cursive;
 }
 
 #devouredBurgers>.burger-div>.devour-div>.devour-btn {

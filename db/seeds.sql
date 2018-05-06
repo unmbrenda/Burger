@@ -1,8 +1,9 @@
 use burger_db;
 
 insert burgers (burger_name, devoured)
-values ('Double Bacon Nummy', 0),
-	('Minni Mac', 0),
-	('Veggie Supreme', 0),
-	('The BFB', 0),
-	('Whimpy Wednesday', 1);
+values ('Cheeseburger', 0),
+	('Turkeyburger', 0),
+	('Veggieburger', 0),
+	('Lotta burger', 0),
+	('BLT Burger', 1),
+	('Moo Burger', 1);
